@@ -1,0 +1,95 @@
+// import compass
+@import "compass";
+
+// import bootstrap
+@import "bootstrap";
+
+// import animate.css
+@import "animate";
+
+
+body{
+  padding-top: 51px; // nav
+}
+
+.gray-wrap{
+  background: #f5f5f5;
+}
+
+#concept{
+  // background: url(/assets/images/background.jpg);
+  -webkit-background-size: 1980px auto;
+       -o-background-size: 1980px auto;
+          background-size: 1980px auto;
+  background-position: center -1695px;
+  background-attachment: fixed;
+}
+#main-visual{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  // background: url(/assets/images/background.jpg);
+  -webkit-background-size: 1980px auto;
+       -o-background-size: 1980px auto;
+          background-size: 1980px auto;
+  background-position: center -795px;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  min-height: 800px;
+  .logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+    object{
+      max-width: 600px;
+      max-height: 600px;
+      max-width: 90%;
+    }
+  }
+}
+.wrap {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.wrap h2{
+  margin-bottom: 3em;
+  font-weight: bold;
+}
+.perceive-sns-block{
+  margin-top: 5.4em;
+  margin-bottom: 5.4em;
+  .btn{
+    margin-bottom: 20px;
+  }
+}
+
+
+#archive{
+  // background: url(/assets/images/background.jpg);
+  -webkit-background-size: 100% auto;
+       -o-background-size: 100% auto;
+          background-size: 100% auto;
+  background-position: bottom center;
+  background-attachment: fixed;
+}
+
+.row-event{
+  .col-event{
+    background: #FFF;
+    width: 48%;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 240px;
+    margin-bottom: 20px;
+    // @include box-shadow(1px 1px 2px rgba(0,0,0,0.1),-1px 1px 2px rgba(0,0,0,0.1));
+    border-bottom: 2px solid #e8e8e8;
+    .event-title{
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+}
